@@ -13,7 +13,7 @@ r = 0.045 # Interest rate
 sigma_grid = np.arange(0.01, 0.31, 0.01)
 
 # Download Excel data
-excel_data = pd.read_excel(r'C:\Users\willk\OneDrive\Desktop\AMS515 HW4\AMS 515 2025 HW4 data.xlsx')
+excel_data = pd.read_excel(r'C:\Users\willk\OneDrive\Desktop\Implied_Volatility_Curve_Data.xlsx')
 strike_prices = excel_data['Strike Price']
 market_prices = excel_data['Last Price']
 
